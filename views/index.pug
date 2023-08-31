@@ -1,0 +1,30 @@
+extends layout.pug
+
+block styleLink
+  link(rel="preconnect" href="https://fonts.googleapis.com")
+  link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+  link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet")
+
+block content 
+  section
+    .picture-badge
+      .picture-centered
+    .homepage-content
+      .avi
+        div.avi-container
+      .card
+        .star-icon
+          img(src="#", alt="")
+        .name-card
+          h3 Ahmed Badri
+        .underline-card
+        .bio-card 
+          p An Enthusiastic Software Developer
+        .underline-card
+        .links-card
+          a(href="http://www.github.com/a-badri"): img(src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png", alt="")
+          
+          a(href="http://www.linkedIn.com"): img(src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png", alt="")
+          
+    
+  
