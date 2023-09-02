@@ -15,6 +15,11 @@ app.get(`/about`, (req, res) => {
   res.render(`about`)
 })
 
+app.get(`/resume`, (req, res) => {
+  res.setHeader('Content-type', 'application/pdf');
+  res.sendFile("/resume/Badri-swd.pdf");
+})
+
 const port = 3001;
 
 app.listen(port, () => console.log(`this app is listening to port ${port}...`))
