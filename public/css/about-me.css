@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
+
 .journey-destination {
   /* background-size: cover; */
   /* background-position: center; */
-  height: 80vh;
-  width: 60vw;
-  background: url("https://pics.freeicons.io/uploads/icons/png/698218881610058223-512.png");
-  /* background: red; */
+  height: 60vh;
+  width: 40vw;
+}
+
+.journey-destination div {
+  width: 90%;
+  height: 90%;
+  justify-self: center;
+  background-image: url("	https://cdn-icons-png.flaticon.com/512/2661/2661465.png ");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  position: relative;
+}
+
+.journey-destination p {
+  position: absolute;
+  top: 10%;
+  width: 90%;
+  height: 90%;
+  padding: 0 10px;
 }
