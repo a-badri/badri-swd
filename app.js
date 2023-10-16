@@ -15,9 +15,8 @@ app.get(`/about`, (req, res) => {
   res.render(`about`)
 })
 
-app.get(`/resume`, (req, res) => {
-  res.setHeader('Content-type', 'application/pdf');
-  res.sendFile("/resume/Badri-swd.pdf");
+app.get(`/projects`, (req, res) => {
+  res.render(`projects`)
 })
 
 const port = 3001;

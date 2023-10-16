@@ -1,31 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
 
 .journey-destination {
-  /* background-size: cover; */
-  /* background-position: center; */
   height: 60vh;
-  width: 40vw;
+  width: 30vw;
+  margin: 5% auto;
 }
 
 .journey-destination div {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   justify-self: center;
   background-image: url("	https://cdn-icons-png.flaticon.com/512/2661/2661465.png ");
   margin: 0 auto;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  text-align: center;
   font-family: 'Caveat', cursive;
-  font-weight: 600;
-  position: relative;
+  font-weight: 590;
+  text-align: center;
+  padding-top: 10%;
 }
 
 .journey-destination p {
-  position: absolute;
-  top: 10%;
-  width: 90%;
-  height: 90%;
-  padding: 0 10px;
+  max-width: 70%;
+  padding-right: 5%;
+  padding-left: 1%;
+  text-align: left;
 }
