@@ -19,6 +19,6 @@ app.get(`/projects`, (req, res) => {
   res.render(`projects`)
 })
 
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.listen(port, () => console.log(`this app is listening to port ${port}...`))
